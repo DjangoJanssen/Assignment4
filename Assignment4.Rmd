@@ -57,7 +57,7 @@ GrowthSW <- GrowthSW |>
 datasummary(growth + rgdp60 ~ treat * (Mean+Median+SD+Min+Max),data=GrowthSW)
 ```
 
-**Designated place**: we encountered various unexplainable errors trying to push my R document into GitHub. We managed to do it on my partners laptop because he has windows. However, I have a macbook and we couldn't fix these errors. On his github that is mentioned above, my interpretation is added to his document.
+**Designated place**: According to this data, revolutions are not stimulating for economic growth. For countries that have experienced a revolution the mean and median are both lower than countries that have not had a revolution in the time period.
 
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
